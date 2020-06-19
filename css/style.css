@@ -8078,11 +8078,11 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 600;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #000000; }
+      color: #000000 !important; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8206,6 +8206,8 @@ h1, h2, h3, h4, h5,
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
       color: #000000 !important; }
+    .ftco-navbar-light.scrolled .nav-link:hover {
+        color: #9900ff !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #9900ff !important; }
     .ftco-navbar-light.scrolled.awake {
